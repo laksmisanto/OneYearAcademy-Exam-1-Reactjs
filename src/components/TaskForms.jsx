@@ -132,7 +132,7 @@ const Forms = () => {
               name="checkbox"
               id="checkbox"
               checked={checked}
-              onClick={() => setChecked(!checked)}
+              onChange={() => setChecked(!checked)}
             />
             <label htmlFor="checkbox" className="ml-2">
               i want to add this task

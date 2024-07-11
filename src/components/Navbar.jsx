@@ -1,16 +1,17 @@
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className=" bg-sky-600 text-white">
       <div className="container">
         <ul className="flex justify-center gap-8 py-3">
           <li>
-            <a href="/">Home</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="/taskview">Task View</a>
+            <NavLink to="/taskview">Task View</NavLink>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>
